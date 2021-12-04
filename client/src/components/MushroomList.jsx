@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
 import MushroomListItem from './MushroomListItem.jsx';
 
-const MushroomList = () => {
+const MushroomList = (props) => {
   return (
-
     <div>
-      <MushroomListItem />
+      {props.mushrooms.map((mushroom) =>
+      <MushroomListItem name={mushroom.name} />
+    )}
     </div>
   )
 }

@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div>
       <GetWeatherForm />
-      <MushroomList />
+      <MushroomList mushrooms={data.mushrooms}/>
     </div>
   )
 }

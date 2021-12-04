@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
-const MushroomListItem = () => {
+const MushroomListItem = (props) => {
+  console.log(props)
   return (
 
     <div>
-      heyo
+      {props.name}
     </div>
   )
 }

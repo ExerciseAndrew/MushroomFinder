@@ -1,7 +1,7 @@
 {
   "name": "MushroomFinder",
   "version": "1.0.0",
-  "description": "just starting the set-up - need to add workflows",
+  "description": "A mushroom finding app that checks the weather",
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode development --watch",
@@ -22,19 +22,26 @@
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
     "styled-components": "^5.3.0",
-    "webpack": "^5.60.0",
-    "nodemon": "^2.0.12",
-    "path": "^0.12.7"
+    "webpack": "^5.60.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
     "@babel/preset-react": "^7.12.13",
-    "babel-loader": "^8.2.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^6.5.1",
     "nodemon": "^2.0.7",
+    "style-loader": "^3.3.1",
     "webpack": "^4.46.0",
     "webpack-cli": "^4.5.0"
   }
